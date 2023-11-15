@@ -1,0 +1,8 @@
+# Modèle créé le : Wed Nov 15 15:27:09 CET 2023 
+player (id_player_player, nom_player_player, prenom_player_player, pseudo_player_player, mail_player_player, phone_player_player, skin_player_player, #id_equipe_equipe_players) 
+parties (id_partie_parties, nom_partie_parties, date_debut_partie_parties, date_fin_partie_parties) 
+cartes (id_cartes_cartes, nom_cartes_cartes, caracteristique_cartes) 
+score_final (id_score_score-final, score_total_score-final, date_saisie_score-final, #id_partie_parties) 
+equipe_players (id_equipe_equipe_players, equipe_equipe_players) 
+joue (id_player_player, id_partie_parties) 
+utilise (id_partie_parties, id_cartes_cartes) 
